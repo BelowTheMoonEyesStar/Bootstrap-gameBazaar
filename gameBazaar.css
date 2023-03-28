@@ -1,0 +1,274 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #1f2122;
+}
+.container {
+  max-width: 1300px;
+}
+.header-area .navbar-light {
+  padding: 15px 10px;
+}
+.header-area .navbar-light .form-control {
+  background-color: #27292a;
+  outline: none;
+  border-radius: 25px;
+  padding: 20px;
+  margin-left: 20px;
+}
+.header-area .navbar-light .navbar-nav {
+  margin-left: auto;
+}
+.header-area .navbar-light .navbar-nav .nav-item {
+  cursor: pointer;
+  text-align: center;
+}
+.header-area .navbar-light .navbar-nav .nav-item a {
+  line-height: 53px;
+  color: #666666;
+  padding: 0px 5px;
+  box-sizing: border-box;
+  white-space: nowrap;
+  margin: 0px 5px;
+}
+.header-area .navbar-light .navbar-nav .nav-item a img {
+  border-radius: 50%;
+}
+.header-area .navbar-light .navbar-nav .nav-item a:hover {
+  color: #e95e9c;
+}
+.page-content {
+  background-color: #27292a;
+  border-radius: 25px;
+  margin-top: 20px;
+  padding: 60px;
+}
+.page-content > div {
+  border-radius: 25px;
+}
+.page-content .main-banner {
+  background: url('images/banner-bg.jpg') center center no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 380px;
+}
+.page-content .main-banner .main-text {
+  padding: 80px 60px;
+  color: white;
+}
+.page-content .main-banner .main-text h6 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.page-content .main-banner .main-text h4 {
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 35px;
+}
+.page-content .main-banner .main-text h4 span {
+  color: #e95e9c;
+}
+.page-content .main-banner .main-text .btn {
+  color: white;
+  background-color: #e95e9c;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+.page-content .main-banner .main-text .btn:hover {
+  background-color: white;
+  color: #e95e9c;
+}
+.page-content .most-popular {
+  background-color: #1f2122;
+  margin: 50px 0;
+  padding: 30px;
+}
+.page-content .most-popular h4 {
+  color: #e95e9c;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.page-content .most-popular h4 span {
+  color: white;
+  text-decoration: underline;
+}
+.page-content .most-popular .item {
+  border-radius: 25px;
+  background-color: #27292a;
+  padding: 30px 15px 15px 20px;
+  margin-bottom: 30px;
+}
+.page-content .most-popular .item img {
+  border-radius: 25px;
+  width: 100%;
+}
+.page-content .most-popular .item h4 {
+  color: white;
+  font-size: 16px;
+  margin-top: 30px;
+}
+.page-content .most-popular .item h4 p {
+  color: #5a6566;
+  font-weight: normal;
+  margin-top: 10px;
+}
+.page-content .most-popular .item ul {
+  margin-top: -80px;
+  float: right;
+  list-style: none;
+  color: white;
+}
+.page-content .most-popular .btn-box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.page-content .most-popular .btn-box .btn {
+  position: absolute;
+  background-color: #e95e9c;
+  color: white;
+  margin: 0px auto;
+  padding: 10px 30px;
+  border-radius: 25px;
+  transition: all 0.3s;
+}
+.page-content .most-popular .btn-box .btn:hover {
+  background-color: white;
+  color: #e95e9c;
+}
+.page-content .gaming-library {
+  background-color: #1f2122;
+  margin: 50px 0;
+  padding: 30px;
+}
+.page-content .gaming-library h4 {
+  color: #e95e9c;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.page-content .gaming-library h4 span {
+  color: white;
+  text-decoration: underline;
+}
+.page-content .gaming-library .item {
+  border-bottom: 1px solid #666666;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.page-content .gaming-library .item ul {
+  list-style: none;
+  margin-bottom: 0;
+  padding: 0;
+  margin: 0;
+}
+.page-content .gaming-library .item ul li {
+  display: inline-block;
+  margin-top: 15px;
+}
+.page-content .gaming-library .item ul li h4 {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 0;
+}
+.page-content .gaming-library .item ul li p {
+  color: #666666;
+  margin: 0;
+}
+.page-content .gaming-library .item ul li .btn {
+  border: 1px solid #666666;
+  border-radius: 25px;
+  color: #666666;
+  padding: 10px 30px;
+}
+.page-content .gaming-library .item ul li .btn:hover {
+  background-color: white;
+  color: #e95e9c;
+}
+.page-content .gaming-library .btn-box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.page-content .gaming-library .btn-box .btn {
+  position: absolute;
+  background-color: #e95e9c;
+  color: white;
+  margin: 0px auto;
+  padding: 10px 30px;
+  border-radius: 25px;
+  transition: all 0.3s;
+}
+.page-content .gaming-library .btn-box .btn:hover {
+  background-color: white;
+  color: #e95e9c;
+}
+.footer {
+  margin: 40px 0px;
+  text-align: center;
+}
+.footer p {
+  color: white;
+}
+@media (max-width: 767px) {
+  .gaming-library .item ul li {
+    text-align: center;
+  }
+  .gaming-library .item ul li:first-child {
+    width: 100%;
+    text-align: center;
+  }
+  .gaming-library .item ul li:last-child {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width: 992px) {
+  .navbar {
+    background-color: white;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    z-index: 111;
+  }
+  .page-content {
+    max-width: 700px;
+    margin: 110px auto;
+  }
+  .form-inline {
+    display: none;
+  }
+  .gaming-library .item ul li {
+    width: 48%;
+  }
+  .nav-item {
+    border-top: 1px solid #666666;
+  }
+  .nav-item:last-child img {
+    display: none;
+  }
+  .page-content {
+    margin-bottom: 10px;
+  }
+  .footer {
+    margin-bottom: 40px;
+  }
+}
+@media (min-width: 992px) {
+  .most-popular h4,
+  .gaming-library h4 {
+    font-size: 36px;
+  }
+  .gaming-library .item ul li {
+    width: 16%;
+  }
+  .nav-item:last-child {
+    background-color: #27292a;
+    border-radius: 25px;
+  }
+}
+/*# sourceMappingURL=./gameBazaar.css.map */
